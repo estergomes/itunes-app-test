@@ -1,0 +1,27 @@
+@media only screen and (min-width: 280px) and (max-width: 600px){
+  .app {
+    padding: 48px 24px;
+  }
+  .header-nav ul {
+    display: none;
+  }
+
+  .menu-icon {
+    visibility: visible;
+    opacity: 1;
+    display: block;
+  }
+
+  .content-box {
+    justify-content: center;
+    padding: 48px;
+  }
+  .content-box .album {
+    width: 100%;
+  }
+  .content-box .album img {
+    width: 100%;
+  }
+
+}
+

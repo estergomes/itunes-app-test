@@ -1,0 +1,29 @@
+#header {
+  margin-bottom: 48px;
+  display: flex;
+  justify-content: space-between;
+}
+.menu-icon {
+  border: 1px solid #333;
+  padding: 4px;
+  margin: 4px 0;
+  height: 25px;
+  visibility: hidden;
+  opacity: 0;
+  display: none;
+  cursor: pointer;
+}
+
+.header-nav {
+  color: rgb(134, 134, 134);
+
+  ul {
+    display: flex;
+    li {
+      list-style: none;
+      padding-left: 24px;
+      font-weight: 300;
+
+    }
+  }
+}
